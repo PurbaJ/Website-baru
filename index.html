@@ -29,13 +29,47 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
+            <a href="#product">Product</a>
             <a href="#contact">Contact</a>
         </div>
         <div class="navbar-icon">
-            <a href="#" id = "cart"><i data-feather ="shopping-cart"></i></a>
-            <a href="#" id = "seach"><i data-feather ="search"></i></a>
+            <a href="#" id = "shopping-cart-button"><i data-feather ="shopping-cart"></i></a>
+            <a href="#" id = "search-button"><i data-feather ="search"></i></a>
             <a href="#" id = "hamburger-menu"><i data-feather ="menu"></i></a>
         </div>
+
+        <div class="search-form">
+            <input type="search" id = "search-box" placeholder="search here..">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="img/produk3.jpg.jpg" alt="keranjang">
+                <div class="item-detail">
+                    <h3>Produk 1</h3>
+                    <div class="item-price">Rp. 15.000</div>
+                </div>
+                <i data-feather="trash-2" class = "remove"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/produk3.jpg.jpg" alt="keranjang">
+                <div class="item-detail">
+                    <h3>Produk 1</h3>
+                    <div class="item-price">Rp. 15.000</div>
+                </div>
+                <i data-feather="trash-2" class = "remove"></i>
+            </div>
+            <div class="cart-item">
+                <img src="img/produk3.jpg.jpg" alt="keranjang">
+                <div class="item-detail">
+                    <h3>Produk 1</h3>
+                    <div class="item-price">Rp. 15.000</div>
+                </div>
+                <i data-feather="trash-2" class = "remove"></i>
+            </div>
+        </div>
+
     </nav>
     <section  data-aos = "fade-up" data-aos-duration ="200" id="home" class="home">
         <main class  = "content">
@@ -106,6 +140,82 @@
         </div>
     </section>
 
+    <section id="product" class="product">
+        <h2>Kami juga menjual beberapa jenis  <span>buah buahan</span> segar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sapiente autem quia rem enim omnis eligendi itaque?</p>
+
+        <div class="row">
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#"><i data-feather="eye"></i></a>
+
+                </div>
+                <div class="product-img">
+                    <img src="img/produk3.jpg.jpg" alt="product">
+                </div>
+                <div class="product-content">
+                    <h3>Jeruk segar</h3>
+                    <div class = "product-star">
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" ></i>
+                       
+                    </div>
+                    <div class="product-price">Rp.5000 <span>Rp.8000</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#"><i data-feather="eye"></i></a>
+
+                </div>
+                <div class="product-img">
+                    <img src="img/produk3.jpg.jpg" alt="product">
+                </div>
+                <div class="product-content">
+                    <h3>Jeruk segar</h3>
+                    <div class = "product-star">
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                    </div>
+                    <div class="product-price">Rp.5000 <span>Rp.8000</span></div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class = "item-detail-button"><i data-feather="eye"></i></a>
+
+                </div>
+                <div class="product-img">
+                    <img src="img/produk3.jpg.jpg" alt="product">
+                </div>
+                <div class="product-content">
+                    <h3>Jeruk segar</h3>
+                    <div class = "product-star">
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = ></i>
+                    </div>
+                    <div class="product-price">Rp.5000 <span>Rp.8000</span></div>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </section>
+
     <section id="contact" class="contact" data-aos="fade-up" data-aos-duration="500">
             <h2> <span>Kontak</span> saya</h2>
             <p class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi inventore voluptas voluptatibus quam, rem iste. Assumenda?</p>
@@ -136,9 +246,9 @@
     </section>
     <footer>
         <div class="footer-logo">
-            <a href="#"><i data-feather="facebook"></i></a>
-            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="https://www.facebook.com/rohit.jhon.2025"><i data-feather="facebook"></i></a>
+            <a href="https://wa.me/qr/IOHBGOILFMHJD1 "><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.instagram.com/rohitpurba175?igsh=MWpya280MnRvZzB0cQ=="><i data-feather="instagram"></i></a>
             <a href="#"><i class='bx bxl-tiktok'></i></a>
         </div>
         <div class="footer-link">
@@ -152,6 +262,28 @@
         </div>
     </footer>
 
+    <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#" class = "close-icon"><i data-feather="x"></i></a>
+            <div class="modal-content">
+                <img src="img/produk3.jpg.jpg" alt="produk">
+                <div class="product-content">
+                    <h3>Produk 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam dicta sequi suscipit corporis?</p>
+                    <div class = "product-star">
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = "stars"></i>
+                        <i data-feather="star" class = ></i>
+                    </div>
+                    <div class="product-price">Rp.5000 <span>Rp.8000</span></div>
+                    <a href="#"><i data-feather="shopping-cart"></i><span>Tambah ke keranjang</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
 
         
@@ -163,15 +295,6 @@
     
     
     
-
-
-
-
-
-
-
-
-
 
     <!-- script data AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
